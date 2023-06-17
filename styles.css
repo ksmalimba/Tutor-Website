@@ -1,0 +1,245 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+}
+
+/* Home Section Styles */
+#home {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#home p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #111;
+}
+
+/* About Section Styles */
+#about {
+    padding: 100px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Services Section Styles */
+#services {
+    background-color: #f7f7f7;
+    padding: 100px 0;
+}
+
+#services h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: 300px;
+    margin: 0 20px 40px;
+    text-align: center;
+}
+
+.service img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 100px 0;
+}
+
+#contact h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    height: 120px;
+}
+
+form button {
+    display: block;
+    background-color: #222;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #111;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+
+#reviews {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #reviews h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .review {
+    margin-bottom: 30px;
+  }
+  
+  .review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .review-content {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
